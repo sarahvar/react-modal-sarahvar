@@ -3,8 +3,8 @@
 **react-modal-sarahvar** est un composant modal simple et flexible pour React. Ce composant permet de créer des fenêtres modales élégantes et fonctionnelles dans vos projets React.
 
 ## Table des matières
-- Prérequis
-- Compatibilité
+- Prérequis(#prérequis)
+- Compatibilité(#compatibilité)
 - [Utilisation](#utilisation)
 - [Props](#props)
 - [Personnalisation du Style](#personnalisation-du-style)

@@ -2,15 +2,21 @@
 
 **react-modal-sarahvar** is a simple and flexible modal component for React. It allows you to create elegant and functional modal windows in your React projects.
 
-## Table des matières
+## Table of Contents
 
-- [Utilisation](#utilisation)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
 - [Props](#props)
-- [Personnalisation du Style](#personnalisation-du-style)
+- [Style Customization](#style-customization)
+- [Node.js Compatibility](#nodejs-compatibility)
 
-## Utilisation
+## Prerequisites
 
-Pour utiliser **react-modal-sarahvar** dans votre projet React, suivez ces étapes :
+To use **react-modal-sarahvar**, you will need to have Node.js installed on your system. The minimum required version is Node.js version 12.x or higher.
+
+## Usage
+
+To use **react-modal-sarahvar** in your React project, follow these steps:
 
 1. **Install the component with npm or yarn:**
 
@@ -32,25 +38,7 @@ Pour utiliser **react-modal-sarahvar** dans votre projet React, suivez ces étap
 
     ```jsx
     const App = () => {
-      const [isOpen, setIsOpen] = useState(false);
-
-      const openModal = () => setIsOpen(true);
-      const closeModal = () => setIsOpen(false);
-
-      return (
-        <div>
-          <button onClick={openModal}>Open Modal</button>
-          <Modal isOpen={isOpen} onClose={closeModal}>
-            <h2>My Modal</h2>
-            <p>This is the content of the modal.</p>
-            <button onClick={closeModal}>Close</button>
-          </Modal>
-        </div>
-      );
-    };
-
-    export default App;
-    ```
+	@@ -54,13 +60,13 @@ Pour utiliser **react-modal-sarahvar** dans votre projet React, suivez ces étap
 
 ## Props
 
@@ -64,10 +52,7 @@ The `Modal` component accepts the following props:
 
 ```jsx
 <Modal
-  isOpen={true}
-  onClose={() => console.log('Modal closed')}>
-  <h2>Welcome</h2>
-  <p>This is a modal dialog.</p>
+	@@ -71,3 +77,58 @@ Le composant `Modal` accepte les props suivantes :
   <button onClick={() => console.log('Button clicked')}>Click Me</button>
 </Modal>
 

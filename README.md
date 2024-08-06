@@ -2,21 +2,15 @@
 
 **react-modal-sarahvar** is a simple and flexible modal component for React. It allows you to create elegant and functional modal windows in your React projects.
 
-## Table of Contents
+## Table des matières
 
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
+- [Utilisation](#utilisation)
 - [Props](#props)
-- [Style Customization](#style-customization)
-- [Node.js Compatibility](#nodejs-compatibility)
+- [Personnalisation du Style](#personnalisation-du-style)
 
-## Prerequisites
+## Utilisation
 
-To use **react-modal-sarahvar**, you will need to have Node.js installed on your system. The minimum required version is Node.js version 12.x or higher.
-
-## Usage
-
-To use **react-modal-sarahvar** in your React project, follow these steps:
+Pour utiliser **react-modal-sarahvar** dans votre projet React, suivez ces étapes :
 
 1. **Install the component with npm or yarn:**
 
